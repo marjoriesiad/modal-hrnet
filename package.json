@@ -1,7 +1,8 @@
 {
+  "author": "marjoriesiad",
   "name": "modal",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -22,6 +23,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/marjoriesiad/modal-hrnet.git"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -30,9 +36,9 @@
   },
 
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@marjoriesiad:registry": "https://npm.pkg.github.com"
   },
-  
+
   "browserslist": {
     "production": [
       ">0.2%",
