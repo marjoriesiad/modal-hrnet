@@ -1,6 +1,6 @@
 {
   "author": "marjoriesiad",
-  "name": "modal",
+  "name": "@marjoriesiad/modal",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -23,6 +23,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+
+  
 
   "repository": {
     "type": "git",
